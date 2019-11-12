@@ -16,7 +16,6 @@ DecoupledEditor
 
         toolbarContainer.appendChild( editor.ui.view.toolbar.element );
 
-        window.editor = editor;
     } )
     .catch( err => {
         console.error( err );
